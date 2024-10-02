@@ -15,7 +15,7 @@
 
 - [Official Links](#official-links) - Official guides and tools
 - [Plugins](#plugins) - what makes YOURLS so versatile and powerful.
-  Currently: **<!--plugin_count-->214<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
+  Currently: **<!--plugin_count-->222<!--/plugin_count-->** plugins listed.<!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 - [Themes](#themes) - to customize how YOURLS looks
 - [Translations](#translations) - YOURLS in your language
 - [Integrations](#integrations) - Third-party integrations and frameworks
@@ -54,7 +54,7 @@ _Legend:_
 - ☑️ : plugin authored by a member of the YOURLS teams
 - :test_tube: : plugins featuring their own unit tests to ensure expected functionality, as well as present and future compatibility, with YOURLS
 
-Currently we have **<!--plugin_count-->214<!--/plugin_count-->** plugins listed.
+Currently we have **<!--plugin_count-->222<!--/plugin_count-->** plugins listed.
 <!-- DO NOT UPDATE THIS COUNT MANUALLY -->
 
 Willing to get your plugins featured here? Please [contribute](CONTRIBUTING.md)!
@@ -82,6 +82,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [Admin Turnstile](https://github.com/SophiaAtkinson/yourls-cf-turnstile) - Protect Admin login with Cloudflare Turnstile!
 - [Advanced Reserved URLs](https://github.com/josheby/yourls-advanced-reserved-urls) - Extends the reserved word functionality, blocking short URLs containing reserved words, even if mixed case or written in leetspeak.
 - [Allow Aliases](https://github.com/adigitalife/yourls-allow-aliases) - Allow YOURLS to work with alias hostnames for the server.
+- [Allow Existing URLs](https://github.com/elder-oss/yourls-allow-existing-urls) - Have YOURLs return success when shortening an existing URL with YOURLS_UNIQUE_URLS=true.
 - [Allow Forward Slashes in Short URLs](https://github.com/williambargent/YOURLS-Forward-Slash-In-Urls) - Just as the name says.
 - [Allow Full Stops in Short URLs](https://github.com/SophiaAtkinson/YOURLS-full-stop-in-short-urls) - This plugin will allow full stops `.` in keywords when shortening URLS.
 - [Always-302](https://github.com/tinjaw/Always-302) - A newer alternative to 302-Instead.
@@ -96,6 +97,8 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [API Edit URL](https://github.com/timcrockford/yourls-api-edit-url) - Add an "update" action to the API to edit a URL, and a "geturl" action to get the long URL of a short URL.
 - [API List All](https://github.com/rosano/yourls-api-action-list) - Add a "list" action to the API to show all keywords.
 - [API List All + URLs](https://github.com/Le0X8/yourls-api-action-list) - Add a "list" action to the API to show all keywords & URLs. This is a fork of the previous plugin and therefore incompatible with it.
+- [API List Extended](https://github.com/Codeinwp/yourls-api-list-extended?tab=readme-ov-file) - Add a "list" action to the API with advanced options, such as shorting, pagination and field selection.
+- [API ShortUrl Analytics](https://github.com/stefanofranco/yourls-api-shorturl-analytics) - Add a "shorturl_analytics" action to the API to get the statistics of a specific shortURL in a range of dates.
 - [Append Query String](https://github.com/drockney/append-qs) - Appends the query string to a long URL.
 - [Auth Manager Plus](https://github.com/joshp23/YOURLS-AuthMgrPlus) - Seperates user data & manages authorization with role-based access controls (RBAC).
 - [Auto Login](https://gist.github.com/ozh/3fa3382eb83d26449daab4b70cd3b299) ☑️ - Automatically populate login/password with test/test (for test installs).
@@ -240,6 +243,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [LDAP](https://github.com/k3a/yourls-ldap-plugin) - Enables use of LDAP for user authentication.
 - [Link Anonymizer](https://github.com/katzwebservices/YOURLS-Link-Anonymizer) - Generate a link that will take you to an anonymizer service.
 - [Link List](https://gitlab.com/ruthtillman/yourls-linklist) - List recent links added, in the admin interface or on a public page.
+- [Limit Custom Keyword Length (Min & Max Characters)](https://github.com/suryatanjung/yourls-limit-custom-keyword-length) - This plugin limits the minimum and maximum number of characters for custom keyword.
 - [Limit keyword length](https://github.com/adigitalife/yourls-limit-keyword-length) - This plugin limits the number of characters allowed for the custom keyword.
 - [Limit keyword length](https://github.com/gehwissenlos/yourls-limit-keyword-length) - This plugin defines the minimal amount of characters for the custom keyword.
 - [Limited Links](https://github.com/LeoColomb/yourls-limited-links) ☑️ -limit the number of redirections of a specific link.
@@ -306,6 +310,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 - [QRCode](https://techlister.com/plugins-2/qrcode-plugin-for-yourls/) - Creates and displays QR Codes within YOURLS.
 - [QR Google Charts](https://aiaraldea.github.io/qr-google-charts/) - Another QR Code plugin, using Google Charts API.
 - [QRCode](https://github.com/seandrickson/YOURLS-QRCode-Plugin) - Another QR Code plugin. Get the QR code by simply clicking on a button in the Admin area (or by adding ".qr" to the end of the keyword).
+- [QRCode Local](https://github.com/alexkolodko/yourls-local-qr-code) — Add ".qr" to short URLs to display the shorturl's QR code in SVG, PDF, PNG or JPG (local generation with JS).
 - [QueryString Forward](https://github.com/llonchj/yourls_plugins) - Forward the query string on short link to long URL (eg `http://sho.rt/kk?a=1` to `http://long.url/somepage/?a=1`).
 - [Query String Keeper](https://github.com/jessemaps/yourls-query-string-keeper) - Pass the query string from the shortlink to the long URL (eg `http://sho.rt/kk?hey` forwards to `http://long.url/bleh/?hey`).
 - [Query String Keeper](https://github.com/littleskyfish/query-string-keeper) - Pass the query string from the shortlink to the long URL (tested on YOURLS version 1.8.3 and php version 8.0.12).
@@ -329,6 +334,7 @@ Jump to [0-9](#0-9) | [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) 
 
 ### S
 
+- [Safe Redirect](https://github.com/imydou/yourls-safe-redirect) - A security reminder is displayed before redirecting long links, and custom ads can be inserted on the reminder page.
 - [SAML Authentication](https://github.com/wlabarron/yourls-saml) - Sign in via SAML-based single sign-on.
 - [Save By Keyword](https://github.com/vitorccs/yourls-api-save-by-keyword) - API action to update the long URL of an existing keyword, or creates a new short URL.
 - [Semantic Scuttle](https://github.com/jonrandoem/yourls-semanticscuttle) - Allows the sharing of the URL to a Semantic Scuttle installation.
@@ -577,6 +583,7 @@ Make YOURLS work with other platforms, programming languages or tools.
 - https://smashed.by/ by [Smashing Magazine](https://www.smashingmagazine.com/).
 - https://cuny.is/ by the [City University of New York](https://www.cuny.edu/).
 - https://dhurl.org/ by [Dreamhost](https://yourls.org/dreamhost).
+- https://rpf.io/ by [the Raspberry Pi Foundation](https://www.raspberrypi.org/).
 
 YOURLS has also been used by the NASA, Virgin and Epic Games. Sweet! 😊
 
